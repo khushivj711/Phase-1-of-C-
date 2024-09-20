@@ -13,9 +13,14 @@ int main(){
     
     
     //initialising an array
-    int second[3] = {1,23,4} ;
+    // int second[3] = {1,23,4} ;
+    int second[15] = {2,7};
 
-    cout<<"Value at second 2 :" <<second[2];
+    // cout<<"Value at second 2 :" <<second[2];
+
+    for(int i=0 ; i<15; i++){
+        cout<<second[i]<<endl;
+    }
 
     cout<<"Everything is fine" <<endl;
     return 0;
