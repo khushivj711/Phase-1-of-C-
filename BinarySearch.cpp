@@ -32,7 +32,9 @@ int main(){
     // cout<<"Enter key value :"<<endl;
     // cin>>key ;
 
-    int index = BinarySearch(even , 6 , 8);
+    int Evenindex = BinarySearch(even , 6 , 8);
+    cout<<"Index of 8 is :" << Evenindex << endl;
 
-    cout<<"Index of 8 is :" << index << endl;
+    int OddIndex = BinarySearch(odd , 5 , 16);
+    cout<<"Index of 16 is :"<< OddIndex << endl;
 }
